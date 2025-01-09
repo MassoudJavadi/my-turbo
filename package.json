@@ -1,5 +1,5 @@
 {
-  "name": "turbo-app",
+  "name": "seller-repo",
   "private": true,
   "scripts": {
     "build": "turbo build",
