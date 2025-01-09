@@ -1,3 +1,4 @@
+"use client";
 import { useEffect } from "react";
 import { useThemeStore, Theme } from "@seller-repo/store/themeStore";
 

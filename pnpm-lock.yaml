@@ -60,6 +60,9 @@ importers:
       '@seller-repo/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
+      '@seller-repo/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
       next:
         specifier: 15.1.4
         version: 15.1.4(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -190,9 +193,6 @@ importers:
 
   packages/ui:
     dependencies:
-      '@seller-repo/store':
-        specifier: workspace:*
-        version: link:../store
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -200,6 +200,9 @@ importers:
         specifier: ^19.0.0
         version: 19.0.0(react@19.0.0)
     devDependencies:
+      '@seller-repo/store':
+        specifier: workspace:*
+        version: link:../store
       '@seller-repo/typescript-config':
         specifier: workspace:*
         version: link:../typescript-config

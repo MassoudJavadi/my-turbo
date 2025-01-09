@@ -5,7 +5,9 @@
   "private": true,
   "exports": {
     "./tailwind.config": "./tailwind.config.ts",
-    "./components/*": "./src/components/*.tsx"
+    "./components/*": "./src/components/*.tsx",
+    "./theme/ThemeProvider": "./src/theme/ThemeProvider.tsx",
+    "./theme/ThemeToggle": "./src/theme/ThemeToggle.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
