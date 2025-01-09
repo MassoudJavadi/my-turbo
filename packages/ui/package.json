@@ -1,12 +1,11 @@
 {
-  "name": "@repo/ui",
+  "name": "@seller-repo/ui",
   "version": "0.0.0",
   "type": "module",
   "private": true,
   "exports": {
-    "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
+    "./tailwind.config": "./tailwind.config.ts",
+    "./components/*": "./src/components/*.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
@@ -14,8 +13,8 @@
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@seller-repo/eslint-config": "workspace:*",
     "@seller-repo/typescript-config": "workspace:*",
+    "@seller-repo/store": "workspace:*",
     "@turbo/gen": "^1.12.4",
     "@types/node": "^20.11.24",
     "@types/react": "18.3.0",
