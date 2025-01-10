@@ -4,10 +4,7 @@ import type { Config } from "tailwindcss";
 
 const tailwindConfig: Config = {
   darkMode: "class",
-  content: [
-    "./apps/**/*.{js,ts,jsx,tsx}", // Include all apps in the apps folder
-    "./packages/**/*.{js,ts,jsx,tsx}", // Include all packages in the packages folder
-  ],
+  content: ["./apps/**/*.{js,ts,jsx,tsx}", "./packages/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {

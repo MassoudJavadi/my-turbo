@@ -7,7 +7,7 @@ export default function Home() {
         <ThemeToggle />
       </header>
 
-      <div className="w-40 h-40 bg-light-primary-700" />
+      <div className="w-40 h-40 bg-light-primary-700 dark:bg-dark-primary-700" />
     </div>
   );
 }

@@ -14,7 +14,7 @@ export const ThemeToggle = () => {
   };
 
   return (
-    <button onClick={toggleTheme} className="p-8 bg-gray-500 dark:bg-gray-800 rounded text-red-500">
+    <button onClick={toggleTheme} className="p-8 bg-gray-500 dark:bg-gray-800 rounded">
       Toggle Theme
     </button>
   );
