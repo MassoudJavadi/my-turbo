@@ -6,6 +6,8 @@ export default function Home() {
         <h1>Issuer App</h1>
         <ThemeToggle />
       </header>
+
+      <div className="w-40 h-40 bg-light-primary-700" />
     </div>
   );
 }

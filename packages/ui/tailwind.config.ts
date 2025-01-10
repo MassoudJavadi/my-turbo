@@ -1,6 +1,8 @@
 // const { lightTheme, darkTheme } = require("@seller-repo/ui/theme/pallete.ts");
 
-module.exports = {
+import type { Config } from "tailwindcss";
+
+const tailwindConfig: Config = {
   darkMode: "class",
   content: [
     "./apps/**/*.{js,ts,jsx,tsx}", // Include all apps in the apps folder
@@ -24,7 +26,6 @@ module.exports = {
         },
         dark: {
           primary: {
-            // Fix typo here: 'prmary' -> 'primary'
             100: "#001D4D",
             200: "#003280",
             300: "#0047B3",
@@ -41,3 +42,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+export default tailwindConfig;
