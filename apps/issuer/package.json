@@ -13,7 +13,8 @@
     "react-dom": "^19.0.0",
     "next": "15.1.4",
     "@seller-repo/typescript-config": "workspace:*",
-    "@seller-repo/ui": "workspace:*"
+    "@seller-repo/ui": "workspace:*",
+    "@seller-repo/store": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5",

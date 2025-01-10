@@ -1,8 +1,1 @@
-/** @type {import('postcss-load-config').Config} */
-const config = {
-  plugins: {
-    tailwindcss: {},
-  },
-};
-
-export default config;
+export { default } from "@seller-repo/ui/postcss.config";

@@ -1,4 +1,4 @@
-import "./globals.css";
+import "@seller-repo/ui/global.css";
 import { ThemeProvider } from "@seller-repo/ui/theme/ThemeProvider";
 
 export default function RootLayout({
